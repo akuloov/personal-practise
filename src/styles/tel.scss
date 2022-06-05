@@ -1,0 +1,31 @@
+.tel{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
+
+  &:hover{
+    opacity: .7;
+  }
+
+  &__icon{
+    fill: #fff;
+    width: 38px;
+    height: 38px;
+
+    @media (max-width: 600px) {
+      width: 17px;
+      height: 17px;
+    }
+  }
+
+  &__number{
+    margin-left: 12px;
+    font-size: 30px;
+
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
+  }
+}

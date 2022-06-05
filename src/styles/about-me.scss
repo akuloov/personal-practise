@@ -1,0 +1,117 @@
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1280px) {
+    flex-direction: column;
+  }
+
+  &__right{
+    margin-top: 70px;
+
+    @media (max-width: 1280px) {
+      margin-top: 170px;
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  &__job-title{
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  &__photo{
+    position: relative;
+    text-align: center;
+  }
+
+  &__qr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 29px;
+    padding: 10px;
+    position: absolute;
+    right: -40px;
+    bottom: 200px;
+
+    @media (max-width: 1280px) {
+      right: 50%;
+      margin-right: -85px;
+      bottom: -140px;
+    }
+    @media (max-width: 665px) {
+      bottom: -110px;
+    }
+    @media (max-width: 500px) {
+      bottom: -130px;
+    }
+
+    &--img{
+      @media (max-width: 665px) {
+        width: 70%;
+      }
+    }
+
+    &--text{
+      color: #161313;
+      font-size: 15px;
+      text-decoration: none;
+      transition: all .3s;
+
+      &:hover{
+        opacity: .7;
+      }
+    }
+  }
+
+  &__achievement{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  &__pointer-dot{
+    width: 12px;
+    height: 11px;
+    fill: #fff;
+    margin-right: 17px;
+
+    @media (max-width: 580px) {
+      height: 9px;
+      width: 9px;
+    }
+  }
+
+  &__text{
+    font-size: 20px;
+    max-width: 530px;
+    line-height: 123.1%;
+
+    @media (max-width: 580px) {
+      font-size: 14px;
+      max-width: 450px;
+    }
+    @media (max-width: 500px) {
+      max-width: 400px;
+    }
+    @media (max-width: 450px) {
+      max-width: 350px;
+    }
+    @media (max-width: 400px) {
+      max-width: 300px;
+    }
+    @media (max-width: 350px) {
+      max-width: 270px;
+    }
+  }
+}

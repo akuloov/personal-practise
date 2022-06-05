@@ -1,0 +1,28 @@
+.dubl-text {
+  position: relative;
+
+  &__top{
+    font-size: 64px;
+    color: #FFFFFF;
+    background-color: #000;
+    position: relative;
+    line-height: 0.9;
+    z-index: 15;
+  }
+  &__mid{
+    font-size: 60px;
+    color: rgba(255,255,255, 0.9);
+    background-color: #000;
+    position: absolute;
+    top: 30px;
+    line-height: 0.9;
+    z-index: 5;
+    font-weight: 700;
+  }
+  &__bottom{
+    font-size: 64px;
+    color: rgba(255,255,255, 0.8);
+    position: absolute;
+    top: 24px;
+  }
+}
