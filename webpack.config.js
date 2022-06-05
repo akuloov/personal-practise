@@ -33,6 +33,7 @@ module.exports = {
         new SVGSpritemapPlugin('src/images/svg/*.svg', {
             output: {
                 filename: '../src/images/spritemap.svg',
+                svg4everybody: false,
                 svg: {
                     sizes: false
                 },
