@@ -1,0 +1,85 @@
+.company-story{
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 10px;
+  margin-left: auto;
+
+  &__item{
+    position: relative;
+    z-index: 15;
+
+    &--z-index{
+      z-index: 20;
+    }
+  }
+
+  &__first-text{
+    font-size: 30px;
+    line-height: 123.1%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    &--container{
+      display: flex;
+      align-items: center;
+    }
+
+    &--bold{
+      margin-right: 14px;
+      font-size: 64px;
+    }
+
+    &--small{
+      font-size: 24px;
+      margin-top: 28px;
+    }
+
+    &--margin{
+      margin-top: 60px;
+    }
+
+    &--big-margin{
+      margin-top: 755px;
+    }
+
+    &--no-margin{
+      margin-top: 0;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__second-text{
+    font-size: 30px;
+    line-height: 123.1%;
+    margin-left: 350px;
+  }
+
+  &__bg{
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+
+    &--bg2{
+      bottom: 30px;
+      right: 50px;
+    }
+
+    &--bg3{
+      bottom: -90px;
+    }
+
+    &--bg4{
+      right: 80px;
+    }
+
+    &--bg5{
+      z-index: -1;
+      bottom: 400px;
+    }
+
+    &--bg6{
+      right: 20px;
+      bottom: 360px;
+    }
+  }
+}
