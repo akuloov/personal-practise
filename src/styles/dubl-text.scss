@@ -8,6 +8,10 @@
     position: relative;
     line-height: 0.9;
     z-index: 15;
+
+    @media(max-width: 400px){
+      font-size: 24px;
+    }
   }
   &__mid{
     font-size: 60px;
@@ -18,11 +22,19 @@
     line-height: 0.9;
     z-index: 5;
     font-weight: 700;
+
+    @media(max-width: 400px){
+      font-size: 24px;
+    }
   }
   &__bottom{
     font-size: 64px;
     color: rgba(255,255,255, 0.8);
     position: absolute;
     top: 24px;
+
+    @media(max-width: 400px){
+      font-size: 24px;
+    }
   }
 }
