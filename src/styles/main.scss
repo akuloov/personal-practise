@@ -41,5 +41,31 @@
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
+
+    @media(max-width: 640px){
+      margin-top: 70px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__dubl-text2{
+    margin-bottom: 50px;
+  }
+
+  &__zoom-logo{
+    text-align: center;
+    margin: 200px 0;
+
+    @media(max-width: 640px){
+      margin: 70px 0;
+    }
+  }
+
+  &__feedback{
+    margin-bottom: 170px;
+  }
+
+  &__feedback-finish{
+    bottom: 447px;
   }
 }

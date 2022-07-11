@@ -5,4 +5,14 @@
   position: relative;
   height: auto;
   min-height: 100vh;
+
+  &__wrapper{
+    filter: none;
+    pointer-events: auto;
+
+    &--filter-active{
+      filter: blur(10px);
+      pointer-events: none;
+    }
+  }
 }

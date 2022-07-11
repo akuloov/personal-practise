@@ -1,0 +1,28 @@
+.dubl-text2{
+  position: relative;
+
+  &__top{
+    font-size: 30px;
+  }
+
+  &__mid{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #161313;
+    position: relative;
+    z-index: 20;
+  }
+
+  &__bottom{
+    font-size: 30px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .1px #fff;
+    position: absolute;
+    top: 64px;
+
+    &--margin{
+      top: 54px;
+    }
+  }
+}

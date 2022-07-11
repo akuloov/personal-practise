@@ -1,12 +1,20 @@
 .slider{
   margin-bottom: 200px;
 
+  @media(max-width: 640px){
+    margin-bottom: 70px;
+  }
+
   &__title{
     font-size: 30px;
     line-height: 123.1%;
     max-width: 420px;
     margin: 0 auto;
     margin-bottom: 50px;
+
+    &--width{
+      max-width: 500px;
+    }
 
     @media(max-width: 500px){
       margin-left: 20px;

@@ -21,6 +21,8 @@
 
     @media(max-width: 640px){
       margin-left: 20px;
+      margin-top: 70px;
+      margin-bottom: 70px;
     }
 
     &--container{
@@ -31,6 +33,10 @@
     &--bold{
       margin-right: 14px;
       font-size: 64px;
+
+      @media(max-width: 640px){
+        margin-left: 20px;
+      }
     }
 
     &--small{
@@ -40,15 +46,47 @@
 
     &--margin{
       margin-top: 60px;
+
+      @media(max-width: 640px){
+        margin-top: 25px;
+      }
     }
 
     &--big-margin{
       margin-top: 755px;
+
+      @media(max-width: 640px){
+        margin-top: 70px;
+      }
+    }
+
+    &--small-margin{
+      @media(max-width: 640px){
+        margin-top: 140px;
+      }
     }
 
     &--no-margin{
       margin-top: 0;
       margin-bottom: 50px;
+    }
+
+    &--no-left-margin{
+      @media(max-width: 640px){
+        margin-left: 0;
+      }
+    }
+
+    &--mrg-left1{
+      @media(max-width: 640px){
+        margin-left: 55px;
+      }
+    }
+
+    &--mrg-left2{
+      @media(max-width: 640px){
+        margin-left: 77px;
+      }
     }
   }
 
