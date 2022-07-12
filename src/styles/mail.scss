@@ -1,0 +1,26 @@
+.mail{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
+
+  &:hover{
+    opacity: .7;
+  }
+
+  &__icon {
+    fill: #fff;
+    width: 20px;
+    height: 17px;
+  }
+
+  &__email{
+    font-size: 14px;
+    margin-left: 12px;
+
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.requisites{
+  max-width: 320px;
+
+  &__title{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  &__item{
+    font-size: 14px;
+    line-height: 103.9%;
+    margin-bottom: 10px;
+
+    &--flex{
+      display: flex;
+      align-items: center;
+    }
+
+    &--margin{
+      margin-left: 5px;
+    }
+
+    &--no-margin{
+      margin-bottom: 0;
+      margin-top: auto;
+    }
+
+    &--small{
+      font-size: 13px;
+    }
+  }
+}
